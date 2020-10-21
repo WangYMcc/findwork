@@ -2,53 +2,74 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc9f8642-3a01-406b-b882-bae0c6a50f5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/mysql/MysqlTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/nio/AcceptCompletionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/nio/AsyncTimeClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/nio/AsyncTimeServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/nio/MultiplexerTimeServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/nio/ReadCompletionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/nio/TimeClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/nio/TimeClientHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/nio/TimeServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/spring/aop/AopTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/resources/log4j2-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_c3p0_0_9_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/mysql/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/mysql/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/netty/nio/TimeClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/netty/nio/TimeClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/netty/nio/TimeServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/netty/nio/TimeServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/resources/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/resources/mapper/userMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/netty/netty.iml" beforeDir="false" afterPath="$PROJECT_DIR$/netty/netty.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/netty/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/netty/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/current/MyTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/current/MyTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/current/ThreadPoolExecutorDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/current/ThreadPoolExecutorDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/chat/ChatClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/chat/ChatClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/chat/ChatClientInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/chat/ChatClientInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/chat/ChatClientServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/chat/ChatClientServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/chat/ChatServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/chat/ChatServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/chat/ChatServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/chat/ChatServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/chat/ChatServerInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/chat/ChatServerInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/client/EchoClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/client/EchoClient$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/client/EchoClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/client/EchoClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/client/EchoClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/client/EchoClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/client/TimeClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/client/TimeClient$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/client/TimeClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/client/TimeClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/client/TimeClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/client/TimeClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/server/DiscardServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/server/DiscardServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/server/DiscardServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/server/DiscardServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/server/DiscardServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/server/DiscardServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/server/EchoServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/server/EchoServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/server/EchoServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/server/EchoServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/server/EchoServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/server/EchoServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/server/TimeServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/server/TimeServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/server/TimeServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/server/TimeServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/server/TimeServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/server/TimeServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/webscoket/HttpRequestHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/webscoket/HttpRequestHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/webscoket/TextWebSocketFrameHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/webscoket/TextWebSocketFrameHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/webscoket/WebsocketChatServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/webscoket/WebsocketChatServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/webscoket/WebsocketChatServerInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/webscoket/WebsocketChatServerInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/mysql/MysqlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/mysql/MysqlTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/netty/chat/ChatClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/io/chat/ChatClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/netty/chat/ChatClientInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/io/chat/ChatClientInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/netty/chat/ChatClientServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/io/chat/ChatClientServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/netty/chat/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/io/chat/ChatServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/netty/chat/ChatServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/io/chat/ChatServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/netty/chat/ChatServerInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/io/chat/ChatServerInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/netty/client/EchoClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/io/client/EchoClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/netty/client/EchoClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/io/client/EchoClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/netty/client/TimeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/io/client/TimeClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/netty/client/TimeClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/io/client/TimeClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/netty/server/DiscardServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/io/server/DiscardServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/netty/server/DiscardServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/io/server/DiscardServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/netty/server/EchoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/io/server/EchoServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/netty/server/EchoServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/io/server/EchoServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/netty/server/TimeServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/io/server/TimeServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/netty/server/TimeServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/io/server/TimeServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/netty/webscoket/HttpRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/io/webscoket/HttpRequestHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/netty/webscoket/TextWebSocketFrameHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/io/webscoket/TextWebSocketFrameHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/netty/webscoket/WebsocketChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/io/webscoket/WebsocketChatServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/netty/webscoket/WebsocketChatServerInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/wangyuming/io/webscoket/WebsocketChatServerInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/chat/ChatClientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/chat/ChatClientInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/chat/ChatClientServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/chat/ChatServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/chat/ChatServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/chat/ChatServerInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/client/EchoClient$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/client/EchoClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/client/EchoClientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/client/TimeClient$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/client/TimeClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/client/TimeClientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/server/DiscardServer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/server/DiscardServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/server/DiscardServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/server/EchoServer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/server/EchoServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/server/EchoServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/server/TimeServer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/server/TimeServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/server/TimeServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/webscoket/HttpRequestHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/webscoket/TextWebSocketFrameHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/webscoket/WebsocketChatServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/wangyuming/netty/webscoket/WebsocketChatServerInitializer.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,6 +97,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -105,6 +127,13 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.YAML" />
   </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.wangyuming.netty.nio" />
+      <recent name="com.wangyuming.mysql.customize.build" />
+      <recent name="com.wangyuming.mysql.customize.config" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -117,13 +146,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TimeClient">
-    <configuration name="ChatClientServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wangyuming.netty.chat.ChatClientServer" />
+  <component name="RunManager" selected="Application.TimeClient (1)">
+    <configuration name="MysqlTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wangyuming.mysql.MysqlTest" />
       <module name="netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wangyuming.netty.chat.*" />
+          <option name="PATTERN" value="com.wangyuming.mysql.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadPoolExecutorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wangyuming.current.ThreadPoolExecutorDemo" />
+    <configuration name="TimeClient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wangyuming.netty.nio.TimeClient" />
       <module name="netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wangyuming.current.*" />
+          <option name="PATTERN" value="com.wangyuming.netty.nio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,6 +186,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TimeServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wangyuming.netty.nio.TimeServer" />
+      <module name="netty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wangyuming.netty.nio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TimeServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wangyuming.nio.TimeServer" />
       <module name="netty" />
@@ -170,26 +212,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebsocketChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wangyuming.netty.webscoket.WebsocketChatServer" />
-      <module name="netty" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wangyuming.netty.webscoket.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TimeClient (1)" />
+        <item itemvalue="Application.TimeServer (1)" />
+        <item itemvalue="Application.MysqlTest" />
         <item itemvalue="Application.TimeClient" />
         <item itemvalue="Application.TimeServer" />
-        <item itemvalue="Application.ThreadPoolExecutorDemo" />
-        <item itemvalue="Application.WebsocketChatServer" />
-        <item itemvalue="Application.ChatClientServer" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +241,10 @@
       <workItem from="1602730661773" duration="2653000" />
       <workItem from="1602816356229" duration="600000" />
       <workItem from="1602820135342" duration="5762000" />
-      <workItem from="1603078218443" duration="6339000" />
+      <workItem from="1603078218443" duration="7047000" />
+      <workItem from="1603159609507" duration="9293000" />
+      <workItem from="1603186899662" duration="599000" />
+      <workItem from="1603243484788" duration="12210000" />
     </task>
     <servers />
   </component>

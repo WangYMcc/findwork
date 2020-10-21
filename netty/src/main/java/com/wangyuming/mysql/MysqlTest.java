@@ -1,39 +1,37 @@
 package com.wangyuming.mysql;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
+import com.github.pagehelper.PageHelper;
+import com.mchange.v1.db.sql.ConnectionUtils;
+import com.wangyuming.mysql.dao.UserDao;
+import com.wangyuming.mysql.entity.User;
+import org.apache.ibatis.io.Resources;
+import org.apache.ibatis.session.SqlSession;
+import org.apache.ibatis.session.SqlSessionFactory;
+import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+
+import java.io.InputStream;
+import java.util.List;
 
 public class MysqlTest {
     public static void main(String[] args) {
-        Connection connection = null;
-        PreparedStatement preparedStatement = null;
-        ResultSet resultSet = null;
         try {
-            // 加载数据库驱动
-            Class.forName("com.mysql.jdbc.Driver");
-            // 通过驱动管理类获取数据库链接
-            connection = DriverManager.getConnection("jdbc:mysql://39.97.184.136:3306/mybatis?characterEncoding=utf-8", "root", "wym54150812");
-            // 定义sql语句？表示占位符
-            String sql = "select * from user where username = ?";
-            // 获取预处理statement
-            preparedStatement = connection.prepareStatement(sql);
-            // 设置参数，第一个参数为sql语句中参数的序号(从1开始)，第二个参数为设置的参数值
-            preparedStatement.setString(1, "tom");
-
-            // 向数据库发出sql执行查询，查询出结果集
-            resultSet = preparedStatement.executeQuery();
-
-            // 遍历查询结果集
-            while (resultSet.next()) {
-                int id = resultSet.getInt("id");
-                String username = resultSet.getString("username");
-                // 封装User
-                System.out.println("id: " + id + "username: " + username);
-            }
+            //加载核心配置文件
+            InputStream resourceAsStream = Resources.getResourceAsStream("SqlMapConfig.xml");
+            //获得sqlSession工厂对象
+            SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(resourceAsStream);
+            //获得sqlSession对象
+            SqlSession sqlSession = sqlSessionFactory.openSession();
+            //执行sql语句
+            UserDao userDao = sqlSession.getMapper(UserDao.class);
+            //List<User> userList = sqlSession.selectList("userMapper.findAll");
+            PageHelper.startPage(1, 2);
+            List<User> userList = userDao.findAll();
+            //打印结果
+            System.out.println(userList);
+            //释放资源
+            sqlSession.close();
         }catch (Exception e){
-
+            e.printStackTrace();
         }
     }
 }
