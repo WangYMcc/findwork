@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="bind" basedir="." default="bindgen">
+    <description>bind</description>
+    <property file="build.properties"/>
+    <path id="classpath">
+        <fileset dir="${jibx}/lib">
+            <include name="**/*.jar"/>
+        </fileset>
+    </path>
+    <!--<target name="bind" depends="bindgen">
+        <echo message="Running JiBX binding compiler" />
+        <taskdef name="bind" classname="org.jibx.binding.ant.CompileTask" classpathref="classpath">
+        </taskdef>
+        <bind binding="${basedir}/binding.xml">
+            <classpath refid="classpath" />
+        </bind>
+    </target>-->
+    <target name="bindgen">
+        <echo message="Running BindGen tool" />
+        <echo message="${basedir}\src\main\java\com\wangyuming\netty\nio\http" />
+        <java classpathref="classpath" fork="true" failonerror="true" classname="org.jibx.binding.generator.BindGen">
+            <arg value="-p" />
+            <arg value="${basedir}/target/classes" />
+            <arg value="-t" />
+            <arg value="${basedir}" />
+            <arg value="-v" />
+            <arg value="com.wangyuming.netty.nio.http.Customer" />
+            <arg value="com.wangyuming.netty.nio.http.Shopping" />
+            <arg value="com.wangyuming.netty.nio.http.Address" />
+            <arg value="com.wangyuming.netty.nio.http.Order" />
+        </java>
+    </target>
+</project>

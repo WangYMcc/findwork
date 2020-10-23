@@ -1,0 +1,40 @@
+<binding xmlns:ns1="http://wangyuming.com/netty/nio/http" name="binding" package="com.wangyuming.netty.nio.http">
+  <namespace uri="http://wangyuming.com/netty/nio/http" default="elements"/>
+  <mapping abstract="true" type-name="ns1:customer" class="com.wangyuming.netty.nio.http.Customer">
+    <value style="element" name="customerNumber" field="customerNumber" usage="optional"/>
+    <value style="element" name="firstName" field="firstName" usage="optional"/>
+    <value style="element" name="lastName" field="lastName" usage="optional"/>
+    <collection field="middleNames" usage="optional" create-type="java.util.ArrayList">
+      <value name="middleName" type="java.lang.String"/>
+    </collection>
+  </mapping>
+  <mapping class="com.wangyuming.netty.nio.http.Customer" name="customer">
+    <structure map-as="ns1:customer"/>
+  </mapping>
+  <mapping abstract="true" type-name="ns1:shopping" class="com.wangyuming.netty.nio.http.Shopping"/>
+  <mapping class="com.wangyuming.netty.nio.http.Shopping" name="shopping">
+    <structure map-as="ns1:shopping"/>
+  </mapping>
+  <mapping abstract="true" type-name="ns1:address" class="com.wangyuming.netty.nio.http.Address">
+    <value style="element" name="stress1" field="stress1" usage="optional"/>
+    <value style="element" name="stress2" field="stress2" usage="optional"/>
+    <value style="element" name="city" field="city" usage="optional"/>
+    <value style="element" name="state" field="state" usage="optional"/>
+    <value style="element" name="postCode" field="postCode" usage="optional"/>
+    <value style="element" name="country" field="country" usage="optional"/>
+  </mapping>
+  <mapping class="com.wangyuming.netty.nio.http.Address" name="address">
+    <structure map-as="ns1:address"/>
+  </mapping>
+  <mapping abstract="true" type-name="ns1:order" class="com.wangyuming.netty.nio.http.Order">
+    <value style="attribute" name="orderNumber" field="orderNumber"/>
+    <structure map-as="ns1:customer" field="customer" usage="optional" name="customer"/>
+    <structure map-as="ns1:address" field="billTo" usage="optional" name="billTo"/>
+    <value style="element" name="shopping" field="shopping" usage="optional"/>
+    <structure map-as="ns1:address" field="shipTo" usage="optional" name="shipTo"/>
+    <value style="attribute" name="total" field="total"/>
+  </mapping>
+  <mapping class="com.wangyuming.netty.nio.http.Order" name="order">
+    <structure map-as="ns1:order"/>
+  </mapping>
+</binding>
